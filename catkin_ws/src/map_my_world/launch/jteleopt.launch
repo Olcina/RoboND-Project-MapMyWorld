@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+   <node name="turtlebot_teleop"
+        pkg="turtlebot_teleop"
+        type="turtlebot_teleop_joy">
+      <remap from="turtlebot_teleop/cmd_vel" to="cmd_vel"/>
+  </node>
+  <node pkg="joy" type="joy_node" name="joystick"/>
+
+</launch>

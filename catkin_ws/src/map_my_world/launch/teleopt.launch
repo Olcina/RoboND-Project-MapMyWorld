@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+
+   <node name="turtlebot_teleop"
+        pkg="turtlebot_teleop"
+        type="turtlebot_teleop_key">
+      <remap from="turtlebot_teleop/cmd_vel" to="cmd_vel"/>
+  </node>
+
+</launch>

@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/olcina/Documents/RoboND/Project3/RoboND-Project-MapMyWorld/catkin_ws/devel/setup.sh
+    local-name: /home/ubuntu/RoboND-Project-MapMyWorld/catkin_ws/devel/setup.sh

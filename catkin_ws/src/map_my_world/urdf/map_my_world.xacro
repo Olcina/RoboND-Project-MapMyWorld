@@ -185,6 +185,15 @@
     <parent link="chassis"/>
   </joint>
 
+  <joint name="camera_optical_joint" type="fixed">
+	<origin xyz="0 0 0" rpy="${-pi/2} 0 ${-pi/2}"/>
+	<parent link="camera"/>
+	<child link="camera_link_optical"/>
+  </joint>
+
+  <link name="camera_link_optical">
+  </link>
+
   <link name="hokuyo">
     <inertial>
       <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
